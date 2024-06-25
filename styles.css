@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/950/893/non_2x/blue-sky-with-white-cloud-background-free-photo.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 4.0);
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#locationInput {
+    font-size: 18px;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+#fetchWeatherBtn {
+    font-size: 18px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #025cf5;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#fetchWeatherBtn:hover {
+    background-color: #021536;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
